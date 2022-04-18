@@ -1,0 +1,74 @@
+/* device under the 992px */
+@media(max-width: 991px){
+    nav ul li span{
+        width: 150px;
+    }
+    nav ul li:hover span{
+        left: 0;
+    }
+
+}
+/* device under 767px */
+@media(max-width: 767px){
+    .header{
+        height: 100%;
+    }
+    .header-title{
+        padding: 0 15px;
+    }
+    nav ul{
+        text-align: center;
+    }
+    .header-right{
+        justify-content: center !important;
+    }
+    .all-btn{
+        margin-bottom: 20px;
+    }
+    nav ul li:hover span{
+        left: 50%;
+    }
+    .domain-search input{
+        width: 200px !important;
+    }
+    .domain-search button{
+        padding: 10px 20px;
+    }
+    .for-margin{
+        margin-bottom: 20px;
+    }
+    .filter-list ul li:after{
+        width: 40px;
+        top: 20px;
+    }
+    /* form */
+    
+.contact-section input, 
+.contact-section textarea{
+    width: 100%;
+}
+}
+/* under 576 */
+@media(max-width: 575px){
+    .team-col{
+        width: 50%;
+    }
+}
+
+/* under 480px */
+@media(max-width: 479px){
+    .domain-search input{
+        width: 100px !important;
+    }
+    .domain-search button{
+        padding: 5px 10px;
+    }
+    .team-col{
+        width: 100%;
+    }
+}
+
+
+
+
+
